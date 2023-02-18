@@ -1,45 +1,31 @@
-# react-ts-lib-starter
+# react-fixed-size-accordion
 
-React boilerplate for library creation with typescript, vite, tests, linter and husky
+Easy to use, lightweight accordion panel for Vue 3, with stable height in opened and closed states.
 
-## Stack
-* React 18.2
-* Typescript 4.9
-* Vite 4.0
-* Jest 29.3
-* Husky 8.0
 
-## Usage
-```bash
-# SSH
-git clone git@github.com:avesheva/react-ts-lib-starter.git
+[screencast-localhost_5173-2022.11.26-16_26_23.webm](https://user-images.githubusercontent.com/12416010/204093958-582c6f45-f780-4518-9ce6-cae9dcd80c37.webm?width="100")
+
+## Installation
+```shell
+# with npm
+npm install react-fixed-size-accordion
 ```
-```bash
-# HTTPS
-git clone https://github.com/avesheva/react-ts-lib-starter.git
-```
-then
-```
-cd react-ts-lib-starter
-npm install
-```
-or
-```
-cd react-ts-lib-starter
-yarn install
+```shell
+# with yarn
+yarn add react-fixed-size-accordion
 ```
 
-## Run
+## Getting Started
+### Import component
+```javascript
+import FixedSizeAccordion from 'react-fixed-size-accordion'
 ```
-npm run dev
-```
 
-## Replace
-
-Replace **"react-fixed-size-accordion"** in _package.json_, _vite.config.ts_ with your lib actually name. Set your actually values to _package.json_ fields. Rename tests file and lib component file, imports.
-
-Replace git remote url with your repo: `git remote set-url origin <your.repo-url>`
-
-## Edit
-
-Edit your REDME file
+## Props
+| NAME                    | TYPE      | DEFAULT      |  DESCRIPTION                                                                                   |
+|-------------------------|-----------|--------------|------------------------------------------------------------------------------------------------|
+| open                    | Boolean   |    -         | Required. Whether hidden block in opened or closed state                                       |   
+| animationDuration? (ms) | Number    |    0         | Set sliding animation duration. Animation not applying, if value **0**                         |
+| topBarId?               | String    | fsaTopBar    | **topBar** slot wrapper **id**                                                                 |  
+| bottomBarId?            | String    | fsaBottomBar | **bottomBar** slot wrapper **id**                                                              |
+| bottomBarContentId?     | String    | " "          | By default bottom bar height calculations performing on block with **bottomBarId**. You can add your component with **id** to bottom bar and pass that **id** as a prop - calculations will perform on that component |
