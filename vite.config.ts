@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'lib/index.tsx'),
-      name: 'your-lib-name',
-      fileName: format => `your-lib-name.${ format }.js`,
+      name: 'react-fixed-size-accordion',
+      fileName: format => `react-fixed-size-accordion.${ format }.js`,
     },
     rollupOptions: {
       external: ['react'],

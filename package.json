@@ -1,21 +1,23 @@
 {
-  "name": "your-lib-name",
+  "name": "react-fixed-size-accordion",
   "version": "1.0.0",
-  "description": "Your lib description",
-  "homepage": "https://github.com/avesheva/react-ts-lib-starter",
-  "author": "Your Name <yourmail@gmail.com>",
+  "description": "React accordion panel with stable height",
+  "homepage": "https://github.com/avesheva/react-fixed-size-accordion",
+  "author": "Andrii Shevchenko <shevchenkoandrii.dev@gmail.com>",
   "license": "MIT",
   "keywords": [
     "react",
     "javascript",
-    "typescript"
+    "typescript",
+    "collapsible panel",
+    "accordion"
   ],
   "private": false,
-  "main": "dist/your-lib-name.umd.js",
-  "module": "dist/your-lib-name.es.js",
+  "main": "dist/react-fixed-size-accordion.umd.js",
+  "module": "dist/react-fixed-size-accordion.es.js",
   "exports": {
-    "import": "./dist/your-lib-name.es.js",
-    "require": "./dist/your-lib-name.umd.js"
+    "import": "./dist/react-fixed-size-accordion.es.js",
+    "require": "./dist/react-fixed-size-accordion.umd.js"
   },
   "files": [
     "dist"

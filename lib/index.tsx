@@ -1,3 +1,3 @@
-import YourLibNameComponent from './components/YourLibNameComponent'
+import ReactFixedSizeAccordion from './components/ReactFixedSizeAccordion'
 
-export default YourLibNameComponent
+export default ReactFixedSizeAccordion
