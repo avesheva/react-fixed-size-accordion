@@ -61,9 +61,9 @@ const BottomBar = () => {
 const App => () => {
   return (
     <div className="App">
-      <ReactFixedSizeAccordion
-        topBarContent={ topBar() }
-        bottomBarContent={ bottomBar() }
+      <FixedSizeAccordion
+        topBarContent={ TopBar() }
+        bottomBarContent={ BottomBar() }
         animationDuration={ 1000 }
       />
     </div>
