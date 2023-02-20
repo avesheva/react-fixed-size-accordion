@@ -1,6 +1,6 @@
 {
   "name": "react-fixed-size-accordion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React accordion panel with stable height",
   "homepage": "https://github.com/avesheva/react-fixed-size-accordion",
   "author": "Andrii Shevchenko <shevchenkoandrii.dev@gmail.com>",
